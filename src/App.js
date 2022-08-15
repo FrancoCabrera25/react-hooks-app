@@ -11,6 +11,7 @@ import { Memorize } from './components/Memorize';
 import { MemorizeHook  } from './components/MemorizeHook';
 import { CallbackHook } from './components/useCallback/CallbackHook';
 import { Padre } from './components/07-tarea-memo/Padre';
+import { TodoApp } from './components/useReducer/TodoApp';
 function App() {
   return <>
    {/* <CounterApp />
@@ -19,7 +20,7 @@ function App() {
    <FormWithCustomHook /> */}
    {/* <MultipleCustomHooks />
    <FocusScreen /> */}
-   <Padre />
+   <TodoApp />
   </>
 }
 
