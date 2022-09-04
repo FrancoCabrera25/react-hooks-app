@@ -10,15 +10,16 @@ import './App.css';
 // import { MemorizeHook  } from './components/MemorizeHook';
 // import { CallbackHook } from './components/useCallback/CallbackHook';
 // import { Padre } from './components/07-tarea-memo/Padre';
-// import { TodoApp } from './components/useReducer/TodoApp';
 import { BrowserRouter } from 'react-router-dom';
 import { MainApp } from './components/useContext/MainApp';
+import { TodoApp } from './components/useReducer/TodoApp';
 function App() {
-  return (
-    <BrowserRouter>
-      <MainApp />
-    </BrowserRouter>
-  );
+	return (
+		<BrowserRouter>
+			<TodoApp />
+			<MainApp />
+		</BrowserRouter>
+	);
 }
 
 export default App;
